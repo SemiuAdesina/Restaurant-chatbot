@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: 'https://restaurant-chatbot-rv0m.onrender.com/api/chatbot',
+  baseURL: 'https://restaurant-chatbot-rv0m.onrender.com',
 });
 
 export const startChatbot = async () => {
