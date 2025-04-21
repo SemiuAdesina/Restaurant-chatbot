@@ -1,0 +1,8 @@
+# frontend/.gitignore
+node_modules/
+dist/
+.env
+.vite
+package-lock.json
+.DS_Store
+coverage/
