@@ -5,7 +5,7 @@ const connectDB = require('./config/db');
 const chatbotRoutes = require('./routes/chatbotRoutes');
 
 const app = express();
-const PORT = process.env.PORT || 5005;
+const PORT = process.env.PORT || 5001;
 
 // Connect to MongoDB
 connectDB();
